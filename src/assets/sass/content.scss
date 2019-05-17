@@ -1,18 +1,21 @@
 section {
     .container {
-    	width: vw(1586);
-    	padding-left: vw(233);
+    	width: 100%;
+    	padding-left: vw(402);
     }
     .advantages {
     	width: vw(330);
     	padding: 0;
     	margin: 0;
+    	display: inline-block;
+    	vertical-align: bottom;
     	li {
-    		font-size: vw(17);
+    		font-size: vw(21);
 			color : #d44e64;
 			list-style: none;
 			position: relative;
-			padding: vw(12) 0 vw(8) vw(35);
+			padding: vw(12) 0 vw(6) vw(35);
+		    letter-spacing: vw(-0.2);
 			&:before {
 				content: "";
 				width: vw(25);
@@ -23,23 +26,90 @@ section {
 				top: 0;
 				margin-right: vw(10);
 				background: url(../images/ico-check.svg) no-repeat;
+				background-size: 100% 100%;
 			}
     	}
     }
+    .advantages2 {
+    	padding: 0;
+    	margin: vw(6) 0 vw(5);
+    	display: inline-block;
+    	&:last-child {
+    		margin-left: vw(20);
+    	}
+    	li {
+    		font-size: vw(20);
+			color : #48443e;
+			list-style: none;
+			position: relative;
+			padding: vw(0) 0 vw(3) vw(14);
+			letter-spacing: vw(0.3);
+			&:before {
+				content: "";
+				width: vw(8);
+				height: vw(8);
+				display: inline-block;
+				position: absolute;
+				left: 0;
+				top: vw(8);
+				background: #d44e64;
+				border-radius: 50%;
+			}
+    	}
+    }
+    .box-text {
+	    display: inline-block;
+    	vertical-align: top;
+    	width: vw(655);
+    	padding-left: vw(64);
+    	p {
+		    font-size: vw(20);
+			color: #48443e;
+			margin: vw(8) 0 vw(10);
+			line-height: 1;
+			letter-spacing: vw(1.3);
+			&.p2 {
+			    letter-spacing: 0px;
+			    font-size: vw(21);
+			}
+    	}
+    }
+    .btn-right {
+    	border: vw(4) solid #4f9d98;
+    	height: vw(130);
+    	font-size: vw(38);
+		color : #4f9d98;
+		width: vw(348);
+		font-weight: 900;
+		position: absolute;
+		right: vw(-8);
+		bottom: vw(17);
+		border-top-left-radius: vw(30);
+		border-bottom-left-radius: vw(30);
+		padding: vw(21) vw(30) vw(20);
+		box-sizing: border-box;
+    }
 	&#content {
-		height: vw(934);
-		background: url(../images/bg.jpg) no-repeat;
+		height: vw(988);
+		background: url(../images/bg2.jpg) no-repeat;
 		background-size: 100% 100%;
 		position: relative;
+		padding-bottom: vw(55);
+	    box-sizing: border-box;
 		.container {
 		    position: absolute;
-			bottom: 0;
-			left: 50%;
-			-webkit-transform: translate(-50%);
-			   -moz-transform: translate(-50%);
-			    -ms-transform: translate(-50%);
-			     -o-transform: translate(-50%);
-			        transform: translate(-50%);
+			bottom: vw(55);
+			left: 0;
+		    box-sizing: border-box;
+			.text-red {
+				color : #d44e64;
+				margin: 0;
+			    letter-spacing: vw(0.4);
+				font-size: vw(20);
+				.underline {
+					padding-bottom: vw(3);
+				}
+			}
 		}
 	}
 }

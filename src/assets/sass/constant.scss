@@ -41,3 +41,15 @@ p {
 .hidden-mg {
     display: inline-block !important;
 }
+.circle-red {
+    width: vw(6);
+    height: vw(6);
+    border-radius: 50%;
+    background: #d44e64;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: vw(2);
+}
+.underline {
+    border-bottom: 1px solid #d44e64;
+}
