@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'HeliosCond';
+  src: url("../Fonts/HeliosCondBold.eot");
+  src: url("../Fonts/HeliosCondBold.eot?#iefix") format("embedded-opentype"), url("../Fonts/HeliosCondBold.woff2") format("woff2"), url("../Fonts/HeliosCondBold.woff") format("woff"), url("../Fonts/HeliosCondBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'HeliosCond';
+  src: url("../Fonts/HeliosCondLight.eot");
+  src: url("../Fonts/HeliosCondLight.eot?#iefix") format("embedded-opentype"), url("../Fonts/HeliosCondLight.woff2") format("woff2"), url("../Fonts/HeliosCondLight.woff") format("woff"), url("../Fonts/HeliosCondLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'HeliosCond';
+  src: url("../Fonts/HeliosCond.eot");
+  src: url("../Fonts/HeliosCond.eot?#iefix") format("embedded-opentype"), url("../Fonts/HeliosCond.woff2") format("woff2"), url("../Fonts/HeliosCond.woff") format("woff"), url("../Fonts/HeliosCond.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'HeliosCond';
+  src: url("../Fonts/HeliosCondBlack.eot");
+  src: url("../Fonts/HeliosCondBlack.eot?#iefix") format("embedded-opentype"), url("../Fonts/HeliosCondBlack.woff2") format("woff2"), url("../Fonts/HeliosCondBlack.woff") format("woff"), url("../Fonts/HeliosCondBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+* {
+  line-height: 100%;
+  transition: all 0.1s ease-in;
+  outline: none !important; }
+
+body {
+  color: #000;
+  font: 15px/18px 'HeliosCond';
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+  font-weight: normal;
+  background: #e2e0e1;
+  margin: 0; }
+
+b {
+  font-family: 'HeliosCond';
+  font-weight: bold; }
+
+img {
+  max-width: 100%; }
+
+svg {
+  width: 100%;
+  height: 100%; }
+
+.slick-list, .slick-track {
+  transition: none; }
+
+p {
+  font-size: 16px;
+  color: #040236;
+  line-height: 1.625;
+  text-align: left; }
+
+.hidden-lg {
+  display: none !important; }
+
+.hidden-mg {
+  display: inline-block !important; }
+
+section .container {
+  width: 82.6041666667vw;
+  padding-left: 12.1354166667vw; }
+
+section .advantages {
+  width: 17.1875vw;
+  padding: 0;
+  margin: 0; }
+  section .advantages li {
+    font-size: 0.8854166667vw;
+    color: #d44e64;
+    list-style: none;
+    position: relative;
+    padding: 0.625vw 0 0.4166666667vw 1.8229166667vw; }
+    section .advantages li:before {
+      content: "";
+      width: 1.3020833333vw;
+      height: 1.6666666667vw;
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      margin-right: 0.5208333333vw;
+      background: url(../images/ico-check.svg) no-repeat; }
+
+section#content {
+  height: 48.6458333333vw;
+  background: url(../images/bg.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: relative; }
+  section#content .container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%); }
+
+footer p {
+  text-align: center;
+  font-size: 1.0416666667vw;
+  color: #55565a;
+  line-height: 1;
+  margin: 1.0416666667vw 0; }
+
+/* mobile style*/

@@ -1,0 +1,56 @@
+input[type="checkbox"],
+input[type="radio"] {
+    display:none;            
+}
+input[type="checkbox"] + label, 
+input[type="radio"] + label {
+  cursor: pointer;
+  font-size: vw(16);
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  text-align: left;
+  position: relative;
+  a {
+	font-size: vw(16);
+  	color: rgb(255, 255, 255);
+  	text-decoration: underline;
+  	&:hover {
+  		text-decoration: none;
+  	}
+  }
+}
+input[type="checkbox"] + label::before,
+input[type="radio"] + label::before {
+    content: "";
+    display: inline-block;
+    height: vw(22);
+    width: vw(22);
+    margin: 0 vw(17) 0 0;
+    background-repeat: no-repeat;
+    border: vw(2) solid #fff;
+    border-radius: vw(5);
+}
+input[type="checkbox"] + label::before {
+}
+input[type="radio"] + label::before {
+}
+input[type="checkbox"]:checked + label::after {
+	content: "";
+	display: inline-block;
+	height: vw(17);
+	width: vw(23);
+	background: #ccc;
+	position: absolute;
+	left: 0;
+	top: vw(1);
+	background: url('../images/lead/check.svg');
+    background-size: 100% 100%;
+}
+input[type="radio"]:checked + label::before {
+}
+input[type="checkbox"]:disabled + label::before {
+}
+input[type="checkbox"]:checked:disabled + label::before {
+}
+input[type="radio"]:disabled + label::before {
+}

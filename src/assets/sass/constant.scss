@@ -1,0 +1,43 @@
+* {
+    line-height: 100%;
+    transition: all 0.1s ease-in;
+    outline: none !important;
+}
+body {
+    color: #000;
+    font: 15px/18px 'HeliosCond';
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+    font-weight: normal;
+    background: #e2e0e1;
+    margin: 0;
+}
+b {
+    font-family: 'HeliosCond';
+    font-weight: bold;
+}
+img {
+    max-width: 100%;
+}
+svg {
+    width: 100%;
+    height: 100%;
+}
+.slick-list, .slick-track {
+    transition: none;
+}
+p {
+    font-size: 16px;
+    color: rgb(4, 2, 54);
+    line-height: 1.625;
+    text-align: left;
+}
+
+.hidden-lg {
+    display: none !important;
+}
+
+.hidden-mg {
+    display: inline-block !important;
+}

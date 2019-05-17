@@ -1,0 +1,19 @@
+{
+	"name": "sensaderm",
+	"version": "1.0.0",
+	"description": "",
+	"author": "Naumenko",
+	"dependencies": {
+		"grunt": "latest",
+		"grunt-browser-sync": "latest",
+		"grunt-contrib-copy": "latest",
+		"grunt-contrib-less": "latest",
+		"grunt-contrib-watch": "latest",
+		"grunt-include-replace": "latest"
+	},
+	"devDependencies": {
+		"grunt-sass": "^2.1.0",
+		"load-grunt-tasks": "^4.0.0",
+		"node-sass": "^4.11.0"
+	}
+}

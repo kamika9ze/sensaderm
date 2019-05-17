@@ -1,0 +1,45 @@
+section {
+    .container {
+    	width: vw(1586);
+    	padding-left: vw(233);
+    }
+    .advantages {
+    	width: vw(330);
+    	padding: 0;
+    	margin: 0;
+    	li {
+    		font-size: vw(17);
+			color : #d44e64;
+			list-style: none;
+			position: relative;
+			padding: vw(12) 0 vw(8) vw(35);
+			&:before {
+				content: "";
+				width: vw(25);
+				height: vw(32);
+				display: inline-block;
+				position: absolute;
+				left: 0;
+				top: 0;
+				margin-right: vw(10);
+				background: url(../images/ico-check.svg) no-repeat;
+			}
+    	}
+    }
+	&#content {
+		height: vw(934);
+		background: url(../images/bg.jpg) no-repeat;
+		background-size: 100% 100%;
+		position: relative;
+		.container {
+		    position: absolute;
+			bottom: 0;
+			left: 50%;
+			-webkit-transform: translate(-50%);
+			   -moz-transform: translate(-50%);
+			    -ms-transform: translate(-50%);
+			     -o-transform: translate(-50%);
+			        transform: translate(-50%);
+		}
+	}
+}

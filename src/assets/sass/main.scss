@@ -1,0 +1,39 @@
+@import "fonts.scss";
+
+
+$browser-context-vw: 19.2;
+
+@function vw($pixels, $context: $browser-context-vw) {
+    @if (unitless($pixels)) {
+        $pixels: $pixels * 1px;
+    }
+
+    @if (unitless($context)) {
+        $context: $context * 1px;
+    }
+
+    @return $pixels / $context * 1vw;
+}
+
+$browser-context-vh: 10.80;
+
+@function vh($pixels, $context: $browser-context-vh) {
+    @if (unitless($pixels)) {
+        $pixels: $pixels * 1px;
+    }
+
+    @if (unitless($context)) {
+        $context: $context * 1px;
+    }
+
+    @return $pixels / $context * 1vh;
+}
+
+@import "constant.scss";
+@import "header.scss";
+@import "content.scss";
+@import "footer.scss";
+@import "modal-style.scss";
+
+/* mobile style*/
+@media (max-width: 1024px) {}
