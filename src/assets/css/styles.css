@@ -91,7 +91,7 @@ section .advantages {
   vertical-align: bottom; }
   section .advantages li {
     font-size: 1.09375vw;
-    color: #d44e64;
+    color: #ee1357;
     list-style: none;
     position: relative;
     padding: 0.625vw 0 0.3125vw 1.8229166667vw;
@@ -129,7 +129,7 @@ section .advantages2 {
       position: absolute;
       left: 0;
       top: 0.4166666667vw;
-      background: #d44e64;
+      background: #ee1357;
       border-radius: 50%; }
 
 section .box-text {
@@ -175,7 +175,7 @@ section#content {
     left: 0;
     box-sizing: border-box; }
     section#content .container .text-red {
-      color: #d44e64;
+      color: #ee1357;
       margin: 0;
       letter-spacing: 0.0208333333vw;
       font-size: 1.0416666667vw; }
